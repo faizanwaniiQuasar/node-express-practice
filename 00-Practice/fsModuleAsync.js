@@ -8,7 +8,7 @@ readFile("./content/first.txt", "utf-8", (err, data) => {
     console.log(data);
     writeFile(
       "./content/asyncNew.txt",
-      `This file is created using asyn method ${data}`,
+      `This file is created using asyn method ${data} and i am now able to create new file using async`,
       "utf-8",
       (err) => {
         if (err) {
