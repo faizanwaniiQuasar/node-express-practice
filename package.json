@@ -1,6 +1,13 @@
 {
   "dependencies": {
-    "node": "^20.2.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "node": "^20.2.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "nodemon 00-Practice/app.js"
   }
 }
