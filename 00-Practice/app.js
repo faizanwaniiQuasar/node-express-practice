@@ -1,10 +1,7 @@
-function diff(a, b) {
-  for (var i = 0; i < a.length; i++) {
-    for (var j = 0; j < b.length; j++) {
-      if (a[i] !== b[j]) {
-        console.log(a[i]);
-      }
-    }
-  }
-}
-diff([1, 2], [2, 3]);
+// const slugify = require("slugify");
+// console.log(`${__dirname}`);
+// console.log(process.cwd());
+// console.log(slugify("hello there HOW ARE", { lower: true }));
+// console.log(`${__filename}`);
+
+console.log(arguments);
